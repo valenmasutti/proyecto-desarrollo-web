@@ -1,0 +1,54 @@
+.grilla-services {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main imagen"
+    "footer footer";
+  grid-template-rows: 40vh 100vh 6vh;
+  grid-template-columns: 50% 50%;
+}
+
+.contenedormain-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .contp {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.p2 {
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.immg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: imagen;
+  background-color: white;
+  border: solid 0 rgb(0, 0, 0);
+  .imagen3 {
+    height: 70%;
+    width: 80%;
+  }
+}
+
+// services-responisve
+@media (max-width: 898px) {
+  .p2 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 558px) {
+  .immg .imagen3 {
+    width: 60%;
+  }
+  .p2 {
+    font-size: 12px;
+  }
+}
