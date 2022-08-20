@@ -1,27 +1,20 @@
 @import "../var/variables";
 
-// .grilla-aboutus {
-//   display: grid;
-//   grid-template-areas:
-//     "header header"
-//     "main im"
-//     "footer footer";
-//   grid-template-rows: 40vh 100vh 6vh;
-//   grid-template-columns: 60% 40%;
 .contenedormain-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  .p1 {
-    font-size: 20px;
-    margin-left: 20px;
-    margin-top: 40px;
-    color: white;
-  }
+  background-color: $bg-color;
+}
+.p1 {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 40px;
+  color: white;
 }
 
-.main {
+.main-about {
   grid-area: main;
   background-color: $bg-color;
 }
