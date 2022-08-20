@@ -33,13 +33,14 @@
     padding-left: 20px;
     margin-bottom: 20px;
   }
+  h2 {
+    padding-top: 25px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 255, 255);
+  }
 }
-h2 {
-  padding-top: 25px;
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  color: rgb(255, 255, 255);
-}
+
 @media (max-width: 413px) {
   .image2 {
     width: 300px;

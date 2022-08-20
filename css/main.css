@@ -123,8 +123,7 @@ p {
   padding-left: 20px;
   margin-bottom: 20px;
 }
-
-h2 {
+.main-about h2 {
   padding-top: 25px;
   text-align: center;
   font-family: "Oswald", sans-serif;
@@ -209,7 +208,7 @@ h2 {
   transition: 1s;
 }
 .main-location .contenedormain-4 .imagen4 {
-  width: 58%;
+  width: 48%;
   margin-top: 10px;
 }
 .main-location .contenedormain-4 h2 {
