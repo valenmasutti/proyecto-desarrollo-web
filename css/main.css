@@ -110,12 +110,6 @@ p {
   margin-top: 40px;
   color: white;
 }
-.main-about h2 {
-  padding-top: 25px;
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  color: white;
-}
 .main-about .imm {
   display: flex;
   justify-content: center;
@@ -128,6 +122,13 @@ p {
   padding-top: 30px;
   padding-left: 20px;
   margin-bottom: 20px;
+}
+
+h2 {
+  padding-top: 25px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: rgb(255, 255, 255);
 }
 
 @media (max-width: 413px) {
@@ -254,15 +255,16 @@ p {
 .cu2 .contenedormain-5 .num {
   color: white;
 }
-.cu2 h2 {
+
+.cabeza {
+  height: 40vh;
+}
+
+h2 {
   padding-top: 25px;
   text-align: center;
   font-family: "Oswald", sans-serif;
   color: white;
-}
-
-.cabeza {
-  height: 40vh;
 }
 
 .formulario {

@@ -20,13 +20,6 @@
     color: white;
   }
 
-  h2 {
-    padding-top: 25px;
-    text-align: center;
-    font-family: "Oswald", sans-serif;
-    color: white;
-  }
-
   .imm {
     display: flex;
     justify-content: center;
@@ -41,7 +34,12 @@
     margin-bottom: 20px;
   }
 }
-
+h2 {
+  padding-top: 25px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: rgb(255, 255, 255);
+}
 @media (max-width: 413px) {
   .image2 {
     width: 300px;
