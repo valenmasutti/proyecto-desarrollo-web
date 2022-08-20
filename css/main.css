@@ -201,14 +201,14 @@ p {
   font-size: 40px;
   cursor: pointer;
   text-decoration: underline;
-  text-decoration-color: white;
+  text-decoration-color: rgb(191, 26, 26);
 }
 .main-location .contenedormain-4 .ubi:hover {
   color: rgb(255, 255, 255);
   transition: 1s;
 }
 .main-location .contenedormain-4 .imagen4 {
-  width: 48%;
+  width: 45%;
   margin-top: 10px;
 }
 .main-location .contenedormain-4 h2 {
