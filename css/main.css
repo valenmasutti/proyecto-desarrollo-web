@@ -73,19 +73,13 @@
   box-sizing: border-box;
 }
 
-.grilla-aboutus {
-  display: grid;
-  grid-template-areas: "header header" "main im" "footer footer";
-  grid-template-rows: 40vh 100vh 6vh;
-  grid-template-columns: 60% 40%;
-}
-.grilla-aboutus .contenedormain-2 {
+.contenedormain-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.grilla-aboutus .contenedormain-2 .p1 {
+.contenedormain-2 .p1 {
   font-size: 20px;
   margin-left: 20px;
   margin-top: 40px;
@@ -119,35 +113,9 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* aboutus responsive */
-@media (max-width: 1280px) {
-  .grilla-aboutus {
-    display: grid;
-    grid-template-areas: "header header" "main im" "footer footer";
-    grid-template-rows: 30% 80% 8vh;
-    grid-template-columns: 60% 40%;
-  }
+@media (max-width: 413px) {
   .image2 {
-    width: 70%;
-  }
-  p {
-    font-size: 15px;
-  }
-}
-@media (max-width: 840px) {
-  nav,
-ul,
-li {
-    font-size: 1px;
-    padding: 10px;
-  }
-}
-@media (max-width: 670px) {
-  .image2 {
-    width: 90%;
-  }
-  .p1 {
-    font-size: 13px;
+    width: 300px;
   }
 }
 .grilla-services {
