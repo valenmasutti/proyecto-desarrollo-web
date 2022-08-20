@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-.grilla {
+/* .grilla {
   display: grid;
   grid-template-areas:
     "header header"
@@ -16,7 +16,7 @@
     "footer footer";
   grid-template-rows: 40vh 100vh 6vh;
   grid-template-columns: 100%;
-}
+} */
 
 .contenedor {
   grid-area: header;
