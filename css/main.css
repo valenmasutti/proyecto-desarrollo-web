@@ -114,7 +114,7 @@ p {
   padding-top: 25px;
   text-align: center;
   font-family: "Oswald", sans-serif;
-  color: rgb(172, 29, 29);
+  color: white;
 }
 .main-about .imm {
   display: flex;
@@ -147,7 +147,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
 }
 .main-services .p2 {
   margin-left: 10px;
@@ -162,6 +162,7 @@ p {
   width: 100%;
   background-color: rgb(255, 255, 255);
   border: solid 0 rgb(0, 0, 0);
+  margin-top: 10px;
 }
 .main-services .immg .imagen3 {
   height: 90%;
@@ -184,29 +185,44 @@ p {
     font-size: 12px;
   }
 }
-.contenedormain-4 {
+.main-location {
+  background-color: #308e32;
+  height: 100vh;
+}
+
+.main-location .contenedormain-4 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-.contenedormain-4 .ubi {
+.main-location .contenedormain-4 .ubi {
   color: rgb(0, 0, 0);
   font-size: 40px;
   cursor: pointer;
   text-decoration: underline;
   text-decoration-color: white;
 }
-.contenedormain-4 .ubi:hover {
+.main-location .contenedormain-4 .ubi:hover {
   color: rgb(255, 255, 255);
   transition: 1s;
 }
-.contenedormain-4 .imagen4 {
-  width: 700px;
-  padding-top: 45px;
-  margin-top: 20px;
+.main-location .contenedormain-4 .imagen4 {
+  width: 58%;
+  margin-top: 10px;
+}
+.main-location .contenedormain-4 h2 {
+  padding-top: 25px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: white;
 }
 
+@media (max-width: 839px) {
+  .imagen4 {
+    width: 10%;
+  }
+}
 .cu2 {
   background-color: #308e32;
   padding-bottom: 20px;
@@ -236,6 +252,12 @@ p {
   margin-top: 40px;
 }
 .cu2 .contenedormain-5 .num {
+  color: white;
+}
+.cu2 h2 {
+  padding-top: 25px;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
   color: white;
 }
 
