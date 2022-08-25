@@ -136,13 +136,7 @@ p {
   }
 }
 .main-services {
-  grid-area: main;
-  width: 100%;
   height: 100%;
-  background-color: #308e32;
-}
-
-.body-servicios {
   background-color: #308e32;
 }
 
@@ -151,26 +145,11 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100%;
 }
 .main-services .p2 {
   margin-left: 10px;
   color: white;
-  font-size: 20px;
-}
-.main-services .immg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80%;
-  width: 100%;
-  background-color: rgb(255, 255, 255);
-  border: solid 0 rgb(0, 0, 0);
-  margin-top: 10px;
-}
-.main-services .immg .imagen3 {
-  height: 90%;
-  width: 40%;
+  font-size: 23px;
 }
 .main-services h2 {
   padding-top: 25px;
