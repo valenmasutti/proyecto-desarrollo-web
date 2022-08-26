@@ -1,48 +1,70 @@
 @import "../var/variables";
 
 .main-about {
-  grid-area: main;
+  max-width: 1600px;
+  margin: auto;
   background-color: $bg-color;
-}
-
-.main-about {
   .contenedormain-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: $bg-color;
-  }
-  .p1 {
-    font-size: 20px;
-    margin-left: 20px;
-    margin-top: 40px;
-    color: white;
-  }
+    padding: 10px;
+    h2 {
+      padding-top: 25px;
+      text-align: center;
+      font-family: "Oswald", sans-serif;
+      color: rgb(255, 255, 255);
+    }
+    .p1 {
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      p {
+        font-size: 20px;
+        margin: 40px auto;
+        color: white;
+      }
+    }
 
-  .imm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    grid-area: im;
-    background-color: $bg-color;
-  }
-  .image2 {
-    width: 400px;
-    padding-top: 30px;
-    padding-left: 20px;
-    margin-bottom: 20px;
-  }
-  h2 {
-    padding-top: 25px;
-    text-align: center;
-    font-family: "Oswald", sans-serif;
-    color: rgb(255, 255, 255);
+    .imm {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $bg-color;
+      .image2 {
+        width: 400px;
+        margin: 20px auto;
+      }
+    }
   }
 }
 
-@media (max-width: 413px) {
-  .image2 {
-    width: 300px;
+@media screen and (max-width: 413px) {
+  .main-about {
+    grid-area: main;
+    background-color: $bg-color;
+    .contenedormain-2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: $bg-color;
+
+      .imm {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $bg-color;
+        .image2 {
+          width: 100%;
+          margin: 20px auto;
+        }
+      }
+    }
   }
 }

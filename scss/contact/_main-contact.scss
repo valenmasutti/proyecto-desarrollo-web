@@ -1,62 +1,240 @@
-.cu2 {
+.contenedormain-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  margin: auto;
   background-color: $bg-color;
-  padding-bottom: 20px;
 
+  h2 {
+    padding-top: 25px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: white;
+  }
+
+  .container-contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: rox;
+
+    .redes-sociales {
+      display: flex;
+      flex-direction: row;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      .redes {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .enlace {
+          color: white;
+          text-decoration: underline;
+          text-decoration-color: black;
+          padding-top: 10px;
+          font-size: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 25%;
+          }
+        }
+        .enlace:hover {
+          color: black;
+          transition: 0.5s;
+        }
+      }
+    }
+    .formulario-contenedor {
+      width: 50%;
+      .formulario {
+        margin: 50px auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        color: white;
+        background-color: #000000;
+        border-radius: 50px;
+        .linea {
+          margin: auto;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding-top: 10px;
+          border: none;
+          .legen {
+            font-size: 30px;
+            color: white;
+            text-align: center;
+          }
+          label {
+            width: 100%;
+            text-align: center;
+          }
+          input {
+            width: 100%;
+          }
+          textarea {
+            width: 100%;
+          }
+          .enviar {
+            margin: 15px auto;
+            width: 100%;
+            background-color: #faebd7;
+            height: 50px;
+            border-radius: 15px;
+            color: #000000;
+            font-weight: bold;
+            text-transform: uppercase;
+          }
+          .enviar:hover {
+            margin: 15px auto;
+            width: 80%;
+            background-color: #7f7b7b;
+            height: 50px;
+            border-radius: 15px;
+            color: #000000;
+            font-weight: bold;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+
+  .cont {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .contenedormain-5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1600px;
+    margin: auto;
+    background-color: $bg-color;
 
-    .logo1 {
-      width: 65px;
-      margin-top: 30px;
-    }
-    .enlace {
+    h2 {
+      padding-top: 25px;
+      text-align: center;
+      font-family: "Oswald", sans-serif;
       color: white;
-      text-decoration: underline;
-      text-decoration-color: black;
-      padding-top: 10px;
-      font-size: 20px;
     }
-    .enlace:hover {
-      color: black;
-      transition: 0.5s;
-    }
-    .logo {
-      margin-top: 40px;
-    }
-    .num {
-      color: white;
+
+    .container-contacto {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .redes-sociales {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin: 30px auto;
+
+        .redes {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .enlace {
+            color: white;
+            text-decoration: underline;
+            text-decoration-color: black;
+            padding-top: 10px;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img {
+              width: 25%;
+            }
+          }
+          .enlace:hover {
+            color: black;
+            transition: 0.5s;
+          }
+        }
+      }
+      .formulario-contenedor {
+        width: 100%;
+        .formulario {
+          margin: 50px auto;
+          width: 80%;
+          display: flex;
+          justify-content: center;
+          padding: 15px;
+          color: white;
+          background-color: #000000;
+          border-radius: 50px;
+          .linea {
+            margin: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10px;
+            border: none;
+            .legen {
+              font-size: 30px;
+              color: white;
+              text-align: center;
+            }
+            label {
+              width: 100%;
+              text-align: center;
+            }
+            input {
+              width: 100%;
+            }
+            textarea {
+              width: 100%;
+            }
+            .enviar {
+              margin: 15px auto;
+              width: 100%;
+              background-color: #faebd7;
+              height: 50px;
+              border-radius: 15px;
+              color: #000000;
+              font-weight: bold;
+              text-transform: uppercase;
+            }
+            .enviar:hover {
+              margin: 15px auto;
+              width: 80%;
+              background-color: #7f7b7b;
+              height: 50px;
+              border-radius: 15px;
+              color: #000000;
+              font-weight: bold;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
     }
   }
-}
-.cabeza {
-  height: 40vh;
-}
-
-h2 {
-  padding-top: 25px;
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  color: white;
-}
-
-.formulario {
-  background-color: rgb(0, 0, 0);
-  padding-top: 30px;
-  padding-left: 80px;
-  padding-bottom: 20px;
-  color: white;
-  .linea {
-    padding-top: 10px;
-    border: none;
-    .legen {
-      font-size: 30px;
-      color: white;
-    }
-  }
-}
-.cont {
-  padding-bottom: 10px;
 }

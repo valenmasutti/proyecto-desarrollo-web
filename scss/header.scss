@@ -35,6 +35,18 @@
     padding-right: 30px;
   }
 }
+@media screen and (max-width: 768px) {
+  .navbar {
+    .navbar-brand {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
 
 // @media screen and (max-width: 768px) {
 //   .main-index {
