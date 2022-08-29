@@ -11,7 +11,7 @@
     padding-top: 25px;
     text-align: center;
     font-family: "Oswald", sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
   }
 
   .container-contacto {
@@ -64,7 +64,7 @@
         padding: 15px;
         color: white;
         background-color: #000000;
-        border-radius: 50px;
+        border-radius: 10px;
         .linea {
           margin: auto;
           width: 100%;
@@ -92,7 +92,7 @@
           .enviar {
             margin: 15px auto;
             width: 100%;
-            background-color: #faebd7;
+            background-color: hsl(129, 67%, 32%);
             height: 50px;
             border-radius: 15px;
             color: #000000;
@@ -133,7 +133,7 @@
       padding-top: 25px;
       text-align: center;
       font-family: "Oswald", sans-serif;
-      color: white;
+      color: rgb(253, 253, 253);
     }
 
     .container-contacto {
@@ -215,7 +215,7 @@
             .enviar {
               margin: 15px auto;
               width: 100%;
-              background-color: #faebd7;
+              background-color: hsl(129, 67%, 32%);
               height: 50px;
               border-radius: 15px;
               color: #000000;

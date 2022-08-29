@@ -1,9 +1,7 @@
 .main-index {
   background-color: $bg-color;
   grid-area: main;
-}
-/*   background-color: $bg-color; */
-.main-index {
+
   .contenedormain {
     display: flex;
     flex-direction: column;
@@ -30,7 +28,7 @@
 h1 {
   font-family: "Oswald", sans-serif;
   margin-top: 60px;
-  color: white;
+  color: rgb(253, 253, 253);
 }
 
 p {

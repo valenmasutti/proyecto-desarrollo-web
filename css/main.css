@@ -43,8 +43,6 @@
   background-color: #308e32;
   grid-area: main;
 }
-
-/*   background-color: $bg-color; */
 .main-index .contenedormain {
   display: flex;
   flex-direction: column;
@@ -69,7 +67,7 @@
 h1 {
   font-family: "Oswald", sans-serif;
   margin-top: 60px;
-  color: white;
+  color: rgb(253, 253, 253);
 }
 
 p {
@@ -245,7 +243,7 @@ p {
   width: 80%;
   height: 400px;
   max-width: 800px;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -274,7 +272,7 @@ p {
   padding-top: 25px;
   text-align: center;
   font-family: "Oswald", sans-serif;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .contenedormain-5 .container-contacto {
   width: 100%;
@@ -326,7 +324,7 @@ p {
   padding: 15px;
   color: white;
   background-color: #000000;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 .contenedormain-5 .container-contacto .formulario-contenedor .formulario .linea {
   margin: auto;
@@ -356,7 +354,7 @@ p {
 .contenedormain-5 .container-contacto .formulario-contenedor .formulario .linea .enviar {
   margin: 15px auto;
   width: 100%;
-  background-color: #faebd7;
+  background-color: hsl(129deg, 67%, 32%);
   height: 50px;
   border-radius: 15px;
   color: #000000;
@@ -391,7 +389,7 @@ p {
     padding-top: 25px;
     text-align: center;
     font-family: "Oswald", sans-serif;
-    color: white;
+    color: rgb(253, 253, 253);
   }
   .contenedormain-5 .container-contacto {
     width: 100%;
@@ -474,7 +472,7 @@ p {
   .contenedormain-5 .container-contacto .formulario-contenedor .formulario .linea .enviar {
     margin: 15px auto;
     width: 100%;
-    background-color: #faebd7;
+    background-color: hsl(129deg, 67%, 32%);
     height: 50px;
     border-radius: 15px;
     color: #000000;
